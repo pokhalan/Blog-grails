@@ -20,7 +20,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <span class="navbar-brand" style="font-family: 'cursive';color: #062c33;font-size: 5em"></span>
+            <span class="navbar-brand" style="font-family: 'cursive';color: #062c33;font-size: 3em">Alankar's Website</span>
         </div>
         <!-- navbar-->
         <div class="navbar-collapse collapse">
@@ -38,13 +38,14 @@
 
 <footer class="sticky-footer" role="contentinfo" style="
 position: fixed;
+z-index: 1000;
 right: 0;
 bottom: 0;
 width: 100%;
 height: 56px;
 background-color: #e9ecef;
 line-height: 55px;">
-    <div>GO to Hell!!</div>
+    <div class="text-center">Copyright © 2018 BOB!</div>
 </footer>
 <asset:javascript src="jquery-2.2.0.min.js"/>
 <asset:javascript src="bootstrap.js"/>

@@ -31,22 +31,28 @@
 
     <div class="row">
 
-        <form>
-            <div class="form-group form-inline">
-                <input type="text" class="form-control" id="firstName" placeholder="First Name">
-                <input type="text" class="form-control" id="lasttName" placeholder="Last Name">
-            </div>
+        <form >
             <div class="form-group">
-                <input type="email" class="form-control" id="email1" placeholder="Enter email">
-                <label for="comment">Comment</label>
-                <textarea name="Comment" class="form-control" id="comment" placeholder="Insert your concerns here! Voila! BOB BOB BOB!"></textarea>
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control col-md-6" id="firstName" placeholder="First Name">
+                    </div>
+
+                    <div class="col-md-6">
+                        <input type="text" class="form-control col-md-6" id="lasttName" placeholder="Last Name">
+                    </div>
+                </div>
             </div>
 
-            <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            <div class="form-group">
+                <input type="email" class="form-control" id="email1" placeholder="Enter email">
+                <textarea name="Comment" class="form-control" id="comment"
+                          placeholder="Insert your concerns here! Voila! BOB BOB BOB!"></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
+            <pre>
+
+            </pre>
         </form>
     </div>
 </div>
