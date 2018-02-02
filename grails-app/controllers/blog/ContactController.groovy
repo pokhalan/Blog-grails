@@ -7,7 +7,7 @@ class ContactController {
     }
     def save(Contact contactUs){
         if(contactUs.validate()){
-            contactUs.save() (flush: true, failOrError: true)
+            contactUs.save(flush: true, failOrError: true)
             flash.message="YO bOB GOT YOUR bACK...eVERYTHIng IS REcORDEd"
         }else{
            flash.message="opps something went wrong bob..."
