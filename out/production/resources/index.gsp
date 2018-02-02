@@ -38,9 +38,9 @@
     <!-- navbar-->
     <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-            <li><a href="/home/blogpost" style="color: #062c33">Blog</a></li>
-            <li><a href="/home/aboutus" style="color: #062c33">About Us</a></li>
-            <li><a href="/home/contactus" style="color: #062c33">Contact Us</a></li>
+            <li><a href="Blog.html" style="color: #062c33">Blog</a></li>
+            <li><a href="About Us.html" style="color: #062c33">About Us</a></li>
+            <li><a href="Contact Us.html" style="color: #062c33">Contact Us</a></li>
         </ul>
     </div>
 </div>

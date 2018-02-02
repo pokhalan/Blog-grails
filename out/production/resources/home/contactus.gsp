@@ -24,12 +24,14 @@
 
     <div class="text-center">
 
-        <img src="http://www.thrivehealthsystems.com/uploads/9/8/2/2/9822955/contact-us_orig.png" class="img-responsive" alt="">
+        <img src="http://www.thrivehealthsystems.com/uploads/9/8/2/2/9822955/contact-us_orig.png" class="img-responsive"
+             alt="">
+        <img src="" alt="">
     </div>
 
     <div class="row">
 
-        <g:form controller="contact" action="save" name="contactUs" >
+        <form >
             <div class="form-group">
                 <div class="row">
                     <div class="col-md-6">
@@ -51,7 +53,7 @@
             <pre>
 
             </pre>
-        </g:form>
+        </form>
     </div>
 </div>
 </body>
