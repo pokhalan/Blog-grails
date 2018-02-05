@@ -9,10 +9,9 @@ class Contact {
 
     Date dateCreated
     static constraints = {
-        firstName nullable: false
-        lastName nullable: false
-        email nullable: false
-        message nullable: false
+        firstName nullable: true
+        lastName nullable: true
+        message nullable: true
         dateCreated nullable: true
 
     }

@@ -15,6 +15,6 @@ class HomeController {
         render(view:"index")
     }
     def contactus(){
-        render(view:"contactus")
+        render(view:"../contact/index")
     }
 }

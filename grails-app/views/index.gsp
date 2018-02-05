@@ -38,9 +38,9 @@
     <!-- navbar-->
     <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-            <li><a href="/home/blogpost" style="color: #062c33">Blog</a></li>
+            <li><a href="/blog/index" style="color: #062c33">Blog</a></li>
             <li><a href="/home/aboutus" style="color: #062c33">About Us</a></li>
-            <li><a href="/home/contactus" style="color: #062c33">Contact Us</a></li>
+            <li><a href="/contact/index" style="color: #062c33">Contact Us</a></li>
         </ul>
     </div>
 </div>
@@ -58,11 +58,12 @@
     <p style="color: white;">Reading new things which might be very helpful to your future can change your world. There is no other place where you have the freedom to read others great ideas and share yours without any critics. Expand your mind here where you are free.</p>
 </div>
 <!--navbar navbar-default-->
-</body>
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
 <script src="js/bootstrap.js"></script>
+</body>
+
+
 
 </html>
 <!--SOURCES:https://learnwebcode.com/tutorial-files/
