@@ -45,7 +45,7 @@ width: 100%;
 height: 56px;
 background-color: #e9ecef;
 line-height: 55px;">
-    <div class="text-center">Copyright © 2018 BOB!</div>
+    <div class="text-center">Copyright © 2018 Alankar Pokhrel!</div>
 </footer>
 <asset:javascript src="jquery-2.2.0.min.js"/>
 <asset:javascript src="bootstrap.js"/>
