@@ -3,9 +3,10 @@ package blog
 class Blog {
     String title
     String content
-    String authorName
-    Date dateCreated
-    Date dateModified
+    Author author
+    Date dateCreated=new Date()
+    Date dateModified=new Date()
+
     static constraints = {
         dateCreated nullable: true
         dateModified nullable: true

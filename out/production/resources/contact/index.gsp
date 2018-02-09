@@ -24,36 +24,34 @@
 
     <div class="text-center">
 
-        <img src="http://www.thrivehealthsystems.com/uploads/9/8/2/2/9822955/contact-us_orig.png" class="img-responsive"
-             alt="">
-        <img src="" alt="">
+        <img src="http://www.thrivehealthsystems.com/uploads/9/8/2/2/9822955/contact-us_orig.png" class="img-responsive" alt="">
     </div>
 
     <div class="row">
 
-        <form >
+        <g:form controller="contact" action="save" name="contactUs" >
             <div class="form-group">
                 <div class="row">
                     <div class="col-md-6">
-                        <input type="text" class="form-control col-md-6" id="firstName" placeholder="First Name">
+                        <input type="text" class="form-control col-md-6"  placeholder="First Name" name="firstName">
                     </div>
 
                     <div class="col-md-6">
-                        <input type="text" class="form-control col-md-6" id="lasttName" placeholder="Last Name">
+                        <input type="text" class="form-control col-md-6" placeholder="Last Name" name="lastName">
                     </div>
                 </div>
             </div>
 
             <div class="form-group">
-                <input type="email" class="form-control" id="email1" placeholder="Enter email">
-                <textarea name="Comment" class="form-control" id="comment"
+                <input type="email" class="form-control" name="email" placeholder="Enter email">
+                <textarea class="form-control" name="message"
                           placeholder="Insert your concerns here! Voila! BOB BOB BOB!"></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
             <pre>
 
             </pre>
-        </form>
+        </g:form>
     </div>
 </div>
 </body>

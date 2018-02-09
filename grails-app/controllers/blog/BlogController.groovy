@@ -6,39 +6,36 @@ class BlogController {
     }
     def list(){
         List<Blog> blogList=Blog.list()
-        render view: "index", model: [blogList: blogList]
+        render view: "index", model: [blogs: blogList]
     }
     def create(){
-        render view:"create"
+        List<Author> authorList=Author.list()
+        render view: "create", model: [authors: authorList]
     }
     def save(Blog blog){
-        blog.dateCreated=new Date()
-        blog.dateModified=new Date()
         if(blog.validate()){
-
             blog.save flush:true,failOnError:true
+            flash.message="Blog Created"
         }else {
-            redirect action:"update"
+            flash.message="Error"
         }
         redirect action:"list"
     }
-    def update(Blog blog){
-        blog.dateModified =new Date()
-        if(blog.validate()){
-            blog.save()
+    def update(Blog eBlog){
+        eBlog.dateModified =new Date()
+        if(eBlog.validate()){
+            eBlog.save flush: true, failOrError: true
             flash.message="Updated"
-            redirect action: "index"
         }else{
             flash.message="Error. Try again"
-            redirect action: "edit"
         }
+        redirect action: "edit",params:[id:eBlog.id]
     }
-    def edit(){
-        Blog blog=Blog.get(params.id)
-        render view:"create", model:[specificBlog:blog]
+    def edit(Blog blogEdit){
+       List<Author> authorList=Author.list()
+        render view:"edit", model:[specificBlog:blogEdit,authors:authorList]
     }
-    def detail(){
-        Blog blog =Blog.get(params.id)
-        render view: "index", model:[specificBlog: blog]
+    def detail(Blog detailPost){
+        render view: "index", model:[detailPost: detailPost]
     }
 }

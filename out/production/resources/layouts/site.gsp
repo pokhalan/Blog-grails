@@ -25,10 +25,10 @@
         <!-- navbar-->
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li><a href="index" style="color: #062c33">Home</a></li>
-                <li><a href="blogpost" style="color: #062c33">Blog</a></li>
-                <li><a href="aboutus" style="color: #062c33">About Us</a> </li>
-                <li><a href="contactus" style="color: #062c33">Contact Us</a></li>
+               <li><g:link controller="home" action="index">Home</g:link> </li>
+                <li><g:link controller="home" action="aboutus">About</g:link> </li>
+                <li><g:link controller="blog" action="index">Blog</g:link> </li>
+                <li><g:link controller="contact" action="index">Home</g:link> </li>
             </ul>
         </div>
     </div>
@@ -45,7 +45,7 @@ width: 100%;
 height: 56px;
 background-color: #e9ecef;
 line-height: 55px;">
-    <div class="text-center">Copyright © 2018 BOB!</div>
+    <div class="text-center">Copyright © 2018 Alankar Pokhrel!</div>
 </footer>
 <asset:javascript src="jquery-2.2.0.min.js"/>
 <asset:javascript src="bootstrap.js"/>
